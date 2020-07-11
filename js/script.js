@@ -15,7 +15,7 @@ backgroundButton.addEventListener("click", () => {
 });
 
 backgroundButton.addEventListener("click", () => {
-    reverse.classList.toggle("black");
+    reverse.classList.toggle("js-black");
 });
 
 shadowButton.addEventListener("click", () => {
@@ -25,5 +25,5 @@ shadowButton.addEventListener("click", () => {
 });
 
 shadowButton.addEventListener("click", () => {
-    normalShadow.classList.toggle("redShadow");
+    normalShadow.classList.toggle("js-redShadow");
 });

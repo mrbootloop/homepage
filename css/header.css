@@ -1,0 +1,109 @@
+.header__navList {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__navItem {
+    margin: 10xp;
+    text-align: center;
+    font-size: 25px;
+}
+
+.header__navLink {
+    max-width: 150px;
+    list-style: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.header__navLink:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.header__navLink:active {
+    border-bottom: 2px solid white;
+    transition: 0s;
+    color: white;
+}
+
+.header__shadow {
+    max-width: 100px;
+    left: 20px;
+    top: 10px;
+    position: fixed;
+    cursor: pointer;
+    transition: 0.7s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__top {
+    max-width: 100px;
+    color: black;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: 0.7s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__backgroundReverse {
+    max-width: 100px;
+    right: 20px;
+    top: 10px;
+    position: fixed;
+    cursor: pointer;
+    transition: 0.7s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__shadow:hover,
+.header__top:hover,
+.header__backgroundReverse:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.header__shadow:active,
+.header__backgroundReverse:active,
+.header__top:active {
+    border-bottom: 2px solid white;
+    color: white;
+    transition: 0s;
+    outline-style: none;
+}
+
+.header__mainTitle {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header__header {
+    padding: 10px;
+    max-width: 1000px;
+    line-height: 1.5;
+    font-family: "Bebas Neue", cursive;
+    border-bottom: 2px solid black;
+}
+
+.header__normalShadow {
+    font-family: "Sancreek", cursive;
+    text-shadow: 3px 3px 1px white;
+    text-transform: uppercase;
+}
+
+.js-redShadow {
+    font-family: "Sancreek", cursive;
+    text-shadow: 3px 3px 1px red;
+}

@@ -1,0 +1,35 @@
+.section__subHeader {
+    margin: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.section__container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+}
+
+.section__firstArtArt {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.section__img1 {
+    padding-left: 40px;
+    max-width: 320px;
+    float: right;
+}
+
+.section__img2 {
+    padding-right: 40px;
+    max-width: 320px;
+    float: left;
+}
+
+.section__img1:hover,
+.section__img2:hover {
+    opacity: 0.7;
+}
